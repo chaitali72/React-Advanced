@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#container{
+margin:  auto;
+align-items: center;
+text-align: center;
+}
+
+h1{
+font-size: 30px;
+}
+h2{
+font-size: 20px;
+}

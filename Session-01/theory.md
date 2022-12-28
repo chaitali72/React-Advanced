@@ -46,6 +46,6 @@ The react package contains React.createElement(), React.Component, React.Childre
 - The react.productionjs for production build that means code runing on your client's machine.
 
 <h3>8. What is async and defer?</h3>
-Async - means execute code when it is downloaded and do not block DOM construction during downloading process. async scripts load in the background and run when ready. The DOM and other scripts don’t wait for them, and they don’t wait for anything.
+Async - means execute code when it is downloaded and do not block DOM construction during downloading process. async scripts load in the background and run when it's ready. The DOM and other scripts don’t wait for them, and they don’t wait for anything.
 
 Defer - means execute code after it's downloaded and browser finished DOM construction and rendering process. The defer attribute tells the browser not to wait for the script. Instead, the browser will continue to process the HTML, build DOM. The script loads “in the background”, and then runs when the DOM is fully built.
