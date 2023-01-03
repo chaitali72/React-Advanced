@@ -54,7 +54,7 @@ spitting out some code
 
 8.  React.createElement()
 
-- React.createElement => object => HTML
+- React.createElement => object => HTML(DOM)
 
 9.  JSX
 
@@ -64,8 +64,12 @@ spitting out some code
 
   const heading = <h1 key="h1" id="title" >Hello </h1>
 
-  here, <h1>Hello </h1> is jsx
-  Q. Is jsx html inside javascript?
+  here,eg <h1>Hello </h1> is jsx syntax here.
+
+  Q. Is JSX html inside javascript?
 
 - no, its html like syntax.nut its not html inside javascript.
 - it just a fancy ways of writing javsscript.
+- camelcasing - convention of javscript
+- babel converts our html code  
+  e.g JSX => React.createElement => object => HTML(DOM)
