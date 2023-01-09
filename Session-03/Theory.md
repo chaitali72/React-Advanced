@@ -1,4 +1,3 @@
-<h1>Laying the Foundation</h1>
 # Topics:
 
 1.  Pollyfills
@@ -37,9 +36,6 @@ spitting out some code
 - compression
 - campatible with older browser
 
-5. Babel
-   babel.rc
-
 6. Keys reconciliation
 
 - whenever you have multiple children <ul><li>red</li><li>yellow</li></ul>
@@ -72,4 +68,12 @@ spitting out some code
 - it just a fancy ways of writing javsscript.
 - camelcasing - convention of javscript
 - babel converts our html code  
-  e.g JSX => React.createElement => object => HTML(DOM)
+   e.g JSX => React.createElement => object => HTML(DOM)
+  advantages of JSX
+- Readability
+- syntatical sugar
+- less code
+
+-> sanitization from js (read)
+-> Component Composition
+-> Functional Components
