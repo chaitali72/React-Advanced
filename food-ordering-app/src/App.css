@@ -1,0 +1,40 @@
+.nav-container{
+  border:2px solid darkblue;
+  height: 7rem;
+  display: flex;
+  justify-content: space-between;
+  margin:10px;
+}
+ .nav-logo img{
+width: 7rem;
+height: 6rem;
+}
+
+.nav-links > ul{
+    list-style: none;
+    display: flex;
+    margin: 10px;
+}
+.nav-links > ul > li {
+    font-size: 22px;
+padding: 20px;
+}
+.sign-btn {
+  padding: 12px 16px;
+  background-color: bisque;
+  color: gray;
+  font-size: 22px;
+  border-radius: 5px;
+}
+/* single-card styles */
+.card{
+  width: 400px;
+  margin:10px;
+  border:2px solid red;
+}
+.card img{
+  width: 100%;
+}
+.restaurant-list{
+  display: flex;
+}

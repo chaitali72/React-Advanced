@@ -4,7 +4,7 @@
 <p> anything you write w/o jsx is a plain javascript.</p>
 <p> using reacr without jsx is pretty convenient when you don’t want to set up compilation in your build environment.</p>
 <hr/>
-<h2>What is <React.Fragment></React.Fragment> and <></>?
+<h2>What is <React.Fragment></React.Fragment> and <></>?</h2>
 <p>Its a Javascript component that lets you return multiple elements in render() method w/o creating an additional DOM element</p>
 <p><></> shorthand syntax</p>
 <hr/>

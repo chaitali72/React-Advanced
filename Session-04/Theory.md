@@ -38,6 +38,9 @@ determne what needs to chnage in ui
 TRee -> virtual representation of DOM 
 why do use key?
 React Fiber -> New conciliation engine in React@16.
-why dont we use index as a key?
+Q why dont we use index as a key?
+- we dont have to use index as a key
+
+is index a valid key? -> its a valid key
 
 </ol>
