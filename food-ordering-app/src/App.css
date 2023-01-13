@@ -1,5 +1,4 @@
 .nav-container{
-  border:2px solid darkblue;
   height: 7rem;
   display: flex;
   justify-content: space-between;
@@ -29,12 +28,36 @@ padding: 20px;
 /* single-card styles */
 .card{
   width: 400px;
-  margin:10px;
-  border:2px solid red;
+  margin:30px auto;
+  border-radius: 3px;
+  border: 1px solid gray;
 }
 .card img{
   width: 100%;
 }
 .restaurant-list{
   display: flex;
+}
+/* search-styles */
+.search-container{
+ align-items: center;
+margin:30px auto;
+text-align: center;
+  width: 700px;
+  display: flex;
+}
+.search-box{
+padding: 20px;
+border-radius: 20px;
+font-size: 22px;
+width: 100%;
+margin-right: 20px;
+outline: none;
+}
+.search-btn {
+   padding: 12px 16px;
+  background-color: bisque;
+  color: gray;
+  font-size: 22px;
+  border-radius: 5px;
 }
