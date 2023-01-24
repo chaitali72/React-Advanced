@@ -5,8 +5,8 @@
   margin:10px;
 }
  .nav-logo img{
-width: 7rem;
-height: 6rem;
+width: 8rem;
+height: 8rem;
 }
 
 .nav-links > ul{
@@ -15,7 +15,7 @@ height: 6rem;
     margin: 10px;
 }
 .nav-links > ul > li {
-    font-size: 22px;
+    font-size: 25px;
 padding: 20px;
 }
 .sign-btn {
@@ -26,17 +26,21 @@ padding: 20px;
   border-radius: 5px;
 }
 /* single-card styles */
+
 .card{
-  width: 400px;
-  margin:30px auto;
+  width: 500px;
+  margin:40px auto;
   border-radius: 3px;
   border: 1px solid gray;
+ 
 }
 .card img{
   width: 100%;
 }
 .restaurant-list{
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 /* search-styles */
 .search-container{
@@ -60,4 +64,17 @@ outline: none;
   color: gray;
   font-size: 22px;
   border-radius: 5px;
+}
+/* shimmer card styles */
+.shimmer-card{
+  background: lightgrey;
+  width: 300px;
+  height: 200px;
+  margin:20x;
+  border-radius: 3px;
+
+}
+/* menu */
+.Menu-info{
+  display: flex;
 }
