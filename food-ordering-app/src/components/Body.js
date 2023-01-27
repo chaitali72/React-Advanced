@@ -2,13 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import RestaurantCard from "./RestaurantCard";
 import Shimmer from "./Shimmer";
-
-function filterData(searchText, restaurants) {
-  const filterData = restaurants.filter((restaurant) =>
-    restaurant?.data?.name?.toLowerCase()?.includes(searchText.toLowerCase())
-  );
-  return filterData;
-}
+import { filterData } from "../utills/helper";
 
 const Body = () => {
   const [searchText, setSearchText] = useState(" ");
@@ -17,7 +11,6 @@ const Body = () => {
 
   useEffect(() => {
     getRestaurants();
-    console.log("render");
   }, []);
 
   async function getRestaurants() {

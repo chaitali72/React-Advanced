@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import FOOD_LOGO from "../assets/food_logo.jpeg";
 import { Link } from "react-router-dom";
+import useOnline from "../utills/useOnline";
 
 const Header = () => {
   const [isLogedIn, setIsLogedIn] = useState(false);
-
+  const isOnline = useOnline();
   return (
     <nav>
       <div className="nav-container">
@@ -26,6 +27,7 @@ const Header = () => {
               <Link to="/contact">Contact</Link>
             </li>
             <li>Cart</li>
+            <li> {isOnline ? " ✅ " : " 🛑 "}</li>
             {!isLogedIn ? (
               <button
                 type="submit"
